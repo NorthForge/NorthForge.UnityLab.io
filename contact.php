@@ -35,9 +35,10 @@ if(isset($_POST['submitcontact']))
     <!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>zPainting</title>
-	<meta name="description" content="Free Responsive Html5 Css3 Templates | Zerotheme.com">
-	<meta name="author" content="https://www.zerotheme.com">
+	<title>PixelArtPortfolio</title>
+	<meta name="keywords" content="Pixelart,PixelArt,pixelart,pixel art, Pixel Art">
+	<meta name="description" content="All information in ine place">
+	<meta name="author" content="https://northforge.github.io/images/blog3.jpg">
 	
     <!-- Mobile Specific Metas
 	================================================== -->
