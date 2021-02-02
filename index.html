@@ -1,220 +1,57 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
+<html>
+<body style="background-color:#D36F4D;">
+<script src='https://pos.gosuslugi.ru/bin/script.min.js'></script>
+<style>
+@charset "UTF-8";#js-show-iframe-wrapper{position:relative;display:flex;align-items:center;justify-content:center;width:100%;min-width:293px;max-width:100%;background:linear-gradient(138.4deg,#38bafe 26.49%,#2d73bc 79.45%);color:#fff; cursor: pointer;}#js-show-iframe-wrapper .pos-banner-fluid *{box-sizing:border-box}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2{display:block;width:195px;min-height:56px;font-size:18px;line-height:24px;cursor:pointer;background:#0d4cd3;color:#fff;border:none;border-radius:8px;outline:0}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2:hover{background:#1d5deb}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2:focus{background:#2a63ad}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2:active{background:#2a63ad}@-webkit-keyframes fadeInFromNone{0%{display:none;opacity:0}1%{display:block;opacity:0}100%{display:block;opacity:1}}@keyframes fadeInFromNone{0%{display:none;opacity:0}1%{display:block;opacity:0}100%{display:block;opacity:1}}@font-face{font-family:LatoWebLight;src:url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Light.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Light.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Light.ttf) format("truetype");font-style:normal;font-weight:400;text-rendering:optimizeLegibility}@font-face{font-family:LatoWeb;src:url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Regular.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Regular.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Regular.ttf) format("truetype");font-style:normal;font-weight:400;text-rendering:optimizeLegibility}@font-face{font-family:LatoWebBold;src:url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Bold.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Bold.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Bold.ttf) format("truetype");font-style:normal;font-weight:400;text-rendering:optimizeLegibility}
+</style>
 
-    <!-- Meta tags
-  ================================================== -->
-	<meta charset="utf-8">
-	<title>PixelArtPortfolio</title>
-	<meta name="keywords" content="Pixelart,PixelArt,pixelart,pixel art, Pixel Art">
-	<meta name="description" content="All information in ine place">
-	<meta name="author" content="https://northforge.github.io/images/blog3.jpg">
-	
-    <!-- Mobile Specific Metas
-	================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-    <!-- CSS
-	================================================== -->
-  	<link rel="stylesheet" href="css/zerogrid.css">
-	<link rel="stylesheet" href="css/style.css">
-	
-	<!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	
-	
-	<link rel="stylesheet" href="css/menu.css">
-	<script src="js/jquery1111.min.js" type="text/javascript"></script>
-	<script src="js/script.js"></script>
-	
-	<!-- Owl Carousel Assets -->
-    <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
-	
-	<!--[if lt IE 8]>
-       <div style=' clear: both; text-align:center; position: relative;'>
-         <a href="http://windows.microsoft.com/en-US/internet-explorer/Items/ie/home?ocid=ie6_countdown_bannercode">
-           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-        </a>
-      </div>
-    <![endif]-->
-    <!--[if lt IE 9]>
-		<script src="js/html5.js"></script>
-		<script src="js/css3-mediaqueries.js"></script>
-	<![endif]-->
-	
-</head>
+<style>
+#js-show-iframe-wrapper .bf-2{position:relative;display:grid;grid-template-columns:var(--pos-banner-fluid-2__grid-template-columns);grid-template-rows:var(--pos-banner-fluid-2__grid-template-rows);width:100%;max-width:1060px;font-family:LatoWeb,sans-serif;box-sizing:border-box}#js-show-iframe-wrapper .bf-2__decor{grid-column:var(--pos-banner-fluid-2__decor-grid-column);grid-row:var(--pos-banner-fluid-2__decor-grid-row);padding:var(--pos-banner-fluid-2__decor-padding);background:var(--pos-banner-fluid-2__bg-url) var(--pos-banner-fluid-2__bg-position) no-repeat;background-size:var(--pos-banner-fluid-2__bg-size)}#js-show-iframe-wrapper .bf-2__logo-wrap{position:absolute;top:var(--pos-banner-fluid-2__logo-wrap-top);bottom:var(--pos-banner-fluid-2__logo-wrap-bottom);right:0;display:flex;flex-direction:column;align-items:flex-end;padding:var(--pos-banner-fluid-2__logo-wrap-padding);background:#2d73bc;border-radius:var(--pos-banner-fluid-2__logo-wrap-border-radius)}#js-show-iframe-wrapper .bf-2__logo{width:128px}#js-show-iframe-wrapper .bf-2__slogan{font-family:LatoWebBold,sans-serif;font-size:var(--pos-banner-fluid-2__slogan-font-size);line-height:var(--pos-banner-fluid-2__slogan-line-height)}#js-show-iframe-wrapper .bf-2__content{padding:var(--pos-banner-fluid-2__content-padding)}#js-show-iframe-wrapper .bf-2__description{display:flex;flex-direction:column;margin-bottom:24px}#js-show-iframe-wrapper .bf-2__text{margin-bottom:12px;font-size:24px;line-height:32px;font-family:LatoWebBold,sans-serif}#js-show-iframe-wrapper .bf-2__text_small{margin-bottom:0;font-size:16px;line-height:24px;font-family:LatoWeb,sans-serif}#js-show-iframe-wrapper .bf-2__btn-wrap{display:flex;align-items:center;justify-content:center}
+</style >
+<div id='js-show-iframe-wrapper'>
+  <div class='pos-banner-fluid bf-2'>
 
-<body>
+    <div class='bf-2__decor'>
+      <div class='bf-2__logo-wrap'>
+        <img
+          class='bf-2__logo'
+          src='https://pos.gosuslugi.ru/bin/banner-fluid/gosuslugi-logo.svg'
+          alt='Госуслуги'
+        />
+        <div class='bf-2__slogan'>Жалобы на всё</div >
+      </div >
+    </div >
+    <div class='bf-2__content'>
 
-	<div class="wrap-body">
-		
-		<header class="main-header">
-			<div class="zerogrid">
-				<!--Top-->
-				<div id="top">
-					<div class="row">
-						<div class="col-2-3">
-							<ul class="list-inline top-link link">
-								<li><a href="#">Facebook</a></li>
-								<li><a href="#">Instagram</a></li>
-								<li><a href="#">Twitter</a></li>
-								<li><a href="#">Google +</a></li>
-								<li><a href="#">Pinterest</a></li>
-							</ul>
-						</div>
-						<div class="col-1-3">
-							<div class="top-search">
-								<form id="form-container" action="">
-									<!--<input type="submit" id="searchsubmit" value="" />-->
-									<a class="search-submit-button" href="javascript:void(0)">
-										<i class="fa fa-search"></i>
-									</a>
-									<div id="searchtext">
-										<input type="text" id="s" name="s" placeholder="Search">
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="t-center">
-					<a class="site-branding" href="index.html">
-						<img src="images/logo.png" width="300px"/>	
-					</a><!-- .site-branding -->
-					
-					<!-- Menu-main -->
-					<div id='cssmenu' class="align-center">
-						<ul>
-						   <li class="active"><a href='index.html'><span>Home</span></a></li>
-						   <li class=' has-sub'><a href='#'><span>Categories</span></a>
-							  <ul >
-								 <li class='has-sub'><a href='#'><span>Item 1</span></a>
-									<ul>
-									   <li><a href='#'><span>Sub Item</span></a></li>
-									   <li class='last'><a href='#'><span>Sub Item</span></a></li>
-									</ul>
-								 </li>
-								 <li class='has-sub'><a href='#'><span>Item 2</span></a>
-									<ul>
-									   <li><a href='#'><span>Sub Item</span></a></li>
-									   <li class='last'><a href='#'><span>Sub Item</span></a></li>
-									</ul>
-								 </li>
-							  </ul>
-						   </li>
-						   <li><a href='single.html'><span>About</span></a></li>
-						   <li><a href='archive.html'><span>Blog</span></a></li>
-						   <li class='last'><a href='contact.html'><span>Contacts</span></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</header>
-		
-		<!--////////////////////////////////////Container-->
-		<section id="container">
-			<div class="wrap-container">
-				<div id="main-content">
-					<div class="wrap-content">
-						<div class="zerogrid">
-							<div class="row">
-								<div class="col-1-5">
-									<div class="wrap-col">
-										<a class="portfolio-box zoom-effect" href="single.html">
-											<img src="images/2й вариант.png" class="img-responsive" alt=""> <!-- Картинка 1 -->
-											<div class="portfolio-box-caption">
-												<div class="portfolio-box-caption-content">
-													<div class="project-name">
-														<!--<span>#ANIMAL</span>-->
-													</div>
-												</div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-1-5">
-									<div class="wrap-col">
-										<a class="portfolio-box zoom-effect" href="single.html">
-											<img src="images/Avatar02.png" class="img-responsive" alt=""><!-- Картинка 2 -->
-											<div class="portfolio-box-caption">
-												<div class="portfolio-box-caption-content">
-													<div class="project-name">
-														<!--<span>#ANIMAL</span>-->
-													</div>
-												</div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-1-5">
-										<a class="portfolio-box zoom-effect" href="single.html">
-											<img src="images/Knight.gif" class="img-responsive" alt=""><!-- Картинка 3 -->
-											<div class="portfolio-box-caption">
-												<div class="portfolio-box-caption-content">
-													<div class="project-name">
-														<!--<span>#ANIMAL</span>-->
-													</div>
-												</div>
-											</div>
-										</a>
-										<a class="portfolio-box zoom-effect" href="single.html">
-											<img src="images/MLevel2Color.png" class="img-responsive" alt=""><!-- Картинка 4 -->
-											<div class="portfolio-box-caption">
-												<div class="portfolio-box-caption-content">
-													<div class="project-name">
-														<!--<span>#ANIMAL</span>-->
-													</div>
-												</div>
-											</div>
-										</a>
-								</div>
-								<!--</div>-->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--////////////////////////////////////Footer-->
-		<footer>
-			<div class="zerogrid wrap-footer">
-				<div class="row">
-					<div class="bottom-social">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-						<a href="#"><i class="fa fa-vimeo"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-						<a href="#"><i class="fa fa-youtube"></i></a>
-					</div>
-				</div>
-				<div class="copyright">
-					Copyright @ - Designed by <a href="https://www.zerotheme.com">ZEROTHEME</a>
-				</div>
-			</div>
-		</footer>
-		<!-- carousel -->
-		<script src="owl-carousel/owl.carousel.js"></script>
-		<script>
-		$(document).ready(function() {
-		  $("#owl-slide").owlCarousel({
-			autoPlay: 3000,
-			items : 1,
-			itemsDesktop : [1199,1],
-			itemsDesktopSmall : [979,1],
-			itemsTablet : [768, 1],
-			itemsMobile : [479, 1],
-			navigation: true,
-			navigationText: ['<i class="fa fa-chevron-left fa-5x"></i>', '<i class="fa fa-chevron-right fa-5x"></i>'],
-			pagination: false
-		  });
-		});
-		</script>
-	</div>
-</body>
+      <div class='bf-2__description'>
+          <span class='bf-2__text'>
+            Не убран мусор, яма на дороге, не горит фонарь?
+<!--            Не убран мусор, яма на дороге, не горит фонарь?-->
+          </span >
+        <span class='pos-banner-fluid__text pos-banner-fluid__text_small'>
+            Столкнулись с проблемой&nbsp;— сообщите о ней!
+<!--          Столкнулись с проблемой&nbsp;— сообщите о ней!-->
+          </span >
+      </div >
+
+      <div class='bf-2__btn-wrap'>
+        <!-- pos-banner-btn_2 не удалять; другие классы не добавлять -->
+        <button
+          class='pos-banner-btn_2'
+          type='button'
+        >Подать жалобу
+        </button >
+      </div >
+
+    </div >
+
+  </div >
+</div >
+<script>
+"use strict";var root=document.documentElement,banner=document.getElementById("js-show-iframe-wrapper");function displayWindowSize(){var o=banner.offsetWidth;o<=405&&(root.style.setProperty("--pos-banner-fluid-2__grid-template-columns","100%"),root.style.setProperty("--pos-banner-fluid-2__grid-template-rows","310px auto"),root.style.setProperty("--pos-banner-fluid-2__decor-grid-column","initial"),root.style.setProperty("--pos-banner-fluid-2__decor-grid-row","initial"),root.style.setProperty("--pos-banner-fluid-2__decor-padding","30px 30px 0 30px"),root.style.setProperty("--pos-banner-fluid-2__content-padding","0 30px 30px 30px"),root.style.setProperty("--pos-banner-fluid-2__bg-url","url('https://pos.gosuslugi.ru/bin/banner-fluid/2/banner-fluid-bg-2-small.svg')"),root.style.setProperty("--pos-banner-fluid-2__bg-position","calc(10% + 64px) calc(100% - 20px)"),root.style.setProperty("--pos-banner-fluid-2__bg-size","cover"),root.style.setProperty("--pos-banner-fluid-2__slogan-font-size","20px"),root.style.setProperty("--pos-banner-fluid-2__slogan-line-height","32px"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-padding","20px 30px 30px 40px"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-top","0"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-bottom","initial"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-border-radius","0 0 0 80px")),o>405&&o<=500&&(root.style.setProperty("--pos-banner-fluid-2__grid-template-columns","100%"),root.style.setProperty("--pos-banner-fluid-2__grid-template-rows","310px auto"),root.style.setProperty("--pos-banner-fluid-2__decor-grid-column","initial"),root.style.setProperty("--pos-banner-fluid-2__decor-grid-row","initial"),root.style.setProperty("--pos-banner-fluid-2__decor-padding","30px 30px 0 30px"),root.style.setProperty("--pos-banner-fluid-2__content-padding","0 30px 30px 30px"),root.style.setProperty("--pos-banner-fluid-2__bg-url","url('https://pos.gosuslugi.ru/bin/banner-fluid/2/banner-fluid-bg-2-small.svg')"),root.style.setProperty("--pos-banner-fluid-2__bg-position","calc(10% + 64px) calc(100% - 20px)"),root.style.setProperty("--pos-banner-fluid-2__bg-size","cover"),root.style.setProperty("--pos-banner-fluid-2__slogan-font-size","24px"),root.style.setProperty("--pos-banner-fluid-2__slogan-line-height","32px"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-padding","30px 50px 30px 70px"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-top","0"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-bottom","initial"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-border-radius","0 0 0 80px")),o>500&&o<=585&&(root.style.setProperty("--pos-banner-fluid-2__grid-template-columns","min-content 1fr"),root.style.setProperty("--pos-banner-fluid-2__grid-template-rows","100%"),root.style.setProperty("--pos-banner-fluid-2__decor-grid-column","2"),root.style.setProperty("--pos-banner-fluid-2__decor-grid-row","1"),root.style.setProperty("--pos-banner-fluid-2__decor-padding","30px 30px 30px 0"),root.style.setProperty("--pos-banner-fluid-2__content-padding","30px"),root.style.setProperty("--pos-banner-fluid-2__bg-url","url('https://pos.gosuslugi.ru/bin/banner-fluid/2/banner-fluid-bg-2-small.svg')"),root.style.setProperty("--pos-banner-fluid-2__bg-position","0% calc(100% - 70px)"),root.style.setProperty("--pos-banner-fluid-2__bg-size","cover"),root.style.setProperty("--pos-banner-fluid-2__slogan-font-size","24px"),root.style.setProperty("--pos-banner-fluid-2__slogan-line-height","32px"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-padding","30px 30px 24px 40px"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-top","initial"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-bottom","0"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-border-radius","80px 0 0 0")),o>585&&o<=800&&(root.style.setProperty("--pos-banner-fluid-2__grid-template-columns","min-content 1fr"),root.style.setProperty("--pos-banner-fluid-2__grid-template-rows","100%"),root.style.setProperty("--pos-banner-fluid-2__decor-grid-column","2"),root.style.setProperty("--pos-banner-fluid-2__decor-grid-row","1"),root.style.setProperty("--pos-banner-fluid-2__decor-padding","30px 30px 30px 0"),root.style.setProperty("--pos-banner-fluid-2__content-padding","30px"),root.style.setProperty("--pos-banner-fluid-2__bg-url","url('https://pos.gosuslugi.ru/bin/banner-fluid/2/banner-fluid-bg-2-small.svg')"),root.style.setProperty("--pos-banner-fluid-2__bg-position","0% calc(100% - 6px)"),root.style.setProperty("--pos-banner-fluid-2__bg-size","cover"),root.style.setProperty("--pos-banner-fluid-2__slogan-font-size","24px"),root.style.setProperty("--pos-banner-fluid-2__slogan-line-height","32px"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-padding","30px 30px 24px 40px"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-top","initial"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-bottom","0"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-border-radius","80px 0 0 0")),o>800&&o<=1020&&(root.style.setProperty("--pos-banner-fluid-2__grid-template-columns","min-content 1fr"),root.style.setProperty("--pos-banner-fluid-2__grid-template-rows","100%"),root.style.setProperty("--pos-banner-fluid-2__decor-grid-column","2"),root.style.setProperty("--pos-banner-fluid-2__decor-grid-row","1"),root.style.setProperty("--pos-banner-fluid-2__decor-padding","30px 30px 30px 0"),root.style.setProperty("--pos-banner-fluid-2__content-padding","30px"),root.style.setProperty("--pos-banner-fluid-2__bg-url","url('https://pos.gosuslugi.ru/bin/banner-fluid/2/banner-fluid-bg-2.svg')"),root.style.setProperty("--pos-banner-fluid-2__bg-position","0% center"),root.style.setProperty("--pos-banner-fluid-2__bg-size","cover"),root.style.setProperty("--pos-banner-fluid-2__slogan-font-size","24px"),root.style.setProperty("--pos-banner-fluid-2__slogan-line-height","32px"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-padding","30px 30px 24px 40px"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-top","initial"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-bottom","0"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-border-radius","80px 0 0 0")),o>1020&&(root.style.setProperty("--pos-banner-fluid-2__grid-template-columns","min-content 1fr"),root.style.setProperty("--pos-banner-fluid-2__grid-template-rows","100%"),root.style.setProperty("--pos-banner-fluid-2__decor-grid-column","2"),root.style.setProperty("--pos-banner-fluid-2__decor-grid-row","1"),root.style.setProperty("--pos-banner-fluid-2__decor-padding","30px 30px 30px 0"),root.style.setProperty("--pos-banner-fluid-2__content-padding","30px"),root.style.setProperty("--pos-banner-fluid-2__bg-url","url('https://pos.gosuslugi.ru/bin/banner-fluid/2/banner-fluid-bg-2.svg')"),root.style.setProperty("--pos-banner-fluid-2__bg-position","0% center"),root.style.setProperty("--pos-banner-fluid-2__bg-size","cover"),root.style.setProperty("--pos-banner-fluid-2__slogan-font-size","24px"),root.style.setProperty("--pos-banner-fluid-2__slogan-line-height","32px"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-padding","30px 30px 24px 40px"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-top","initial"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-bottom","0"),root.style.setProperty("--pos-banner-fluid-2__logo-wrap-border-radius","80px 0 0 0"))}displayWindowSize();var resizeListener=window.addEventListener("resize",displayWindowSize);window.onunload=function(){window.removeEventListener("resize",resizeListener)};
+</script>
+ <script>Widget("https://pos.gosuslugi.ru/form", 223896)</script>
+
+<p style="color:white;">Тест странички от гитхаба</p>
 </html>
